@@ -1,0 +1,91 @@
+body {
+
+margin: 0;
+
+font-family: Arial, sans-serif;
+
+background-color: lavenderblush;
+
+text-align: center;
+
+}
+
+.invitation {
+
+width: 450px;
+
+margin: 50px auto;
+
+padding: 35px;
+
+background-color: white;
+
+border: 5px dashed hotpink;
+
+border-radius: 30px;
+
+box-shadow: 0 20px 20px rgb(255, 0, 0);
+
+}
+
+h1 {
+
+color: deeppink;
+
+}
+
+h2 {
+
+color: purple;
+
+}
+
+.punch {
+
+font-size: 100px;
+
+margin: 20px;
+
+}
+
+p {
+
+font-size: 17px;
+
+}
+
+.details {
+
+background-color: lightyellow;
+
+padding: 15px;
+
+margin: 20px;
+
+border-radius: 20px;
+
+}
+
+button {
+
+padding: 12px 25px;
+
+border: none;
+
+border-radius: 20px;
+
+background-color: hotpink;
+
+color: white;
+
+font-size: 17px;
+
+cursor: pointer;
+
+}
+
+button:hover {
+
+background-color: deeppink;
+
+}
