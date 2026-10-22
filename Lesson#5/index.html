@@ -3,37 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The history of mobiles story</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Body elements</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        body{ background-color:bisque;}
+        .navbar{background-color: rgb(255, 194, 113);}
+       .navbar-brand, .navbar-link{color: rgb(163, 130, 83) ;}
+       .section-title{ color:black; margin:20px 0 10px;}
+    </style>
 </head>
 <body>
+    <nav class="navbar navbar-expand-sm">
+     <a class="navbar-brand" href="#">Body element Helpers</a>
+        <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Body Elements</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">How they work</a></li>
+        </ul>
+    </nav>
 
-    <div class="story-card">
-        
-       <h1>Mobile history</h1>
-        <img src="Mobile.jpg" alt="Mobile history">
+    <div class="container mt-4">
+        <h4 class="section tile">Scanning the Body elements....</h4>
+        <div class="spinner-border text-primary" role="status"></div>
+        <div class="spinner-border text-secondary" role="status"></div>
+        <div class="spinner-border text-warning" role="status"></div>
+        <div class="spinner-border text-danger" role="status"></div>
+    
 
-        <h2>an invention about mobiles</h2>
-        
-        <h4>The invention</h4>
-
-       <p>Back in 1973, A man decided to make somerhing cool. he invented a mobile phone.</p>
-
-        <h4>The made</h4>
-
-       <p>But in June 11 1997, everthing changed! a man named Philippe Kahn made a mobile phone. It has a screen and there are numbers 1-0 it's name was Nokia 3310.</p>
-
-       <h4>The crometical phone</h4>
-
-       <p>In 1999, the first commercial phone with a built-in camera. It featured a 0.11-megapixel front-facing camera meant for video calls. was launched in japan.</p>
-
-       <h4>The morden days</h4>
-
-        <p>Iphones are ussaly popular in world</p>
-
-        <div class="moral">
-            <b>Moral:</b><b>Use your mind to make an invention</b>
+    <h4 class="section-title">Feauted Planets</h4>
+     <div class="row">
+        <div class="col md-4">
+            <div class="card">
+                <div class="card-boy">
+                    <h5 class="card-title">Iron</h5>
+                    <p class="card-text">It is used to help you breath.</p>
+                    <a href="#" class="btn btn-primary">discover</a>
+                </div>
+            </div>
         </div>
+
+         <div class="col md-4">
+            <div class="card">
+                <div class="card-boy">
+                    <h5 class="card-title">Calcium</h5>
+                    <p class="card-text">It is used to strenghten your body</p>
+                    <a href="#" class="btn btn-secondary">discover</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col md-4">
+            <div class="card">
+                <div class="card-boy">
+                    <h5 class="card-title">Magnesium</h5>
+                    <p class="card-text">It is used to  send 300 or mare enzymes</p>
+                    <a href="#" class="btn btn-warning">discover</a>
+                </div>
+            </div>
+        </div>
+     </div>
+
+     <div class="col md-4">
+            <div class="card">
+                <div class="card-boy">
+                    <h5 class="card-title">Pottasium</h5>
+                    <p class="card-text">It is used to send high energy</p>
+                    <a href="#" class="btn btn-danger">discover</a>
+                </div>
+            </div>
+        </div>
+     </div>
+
+
+
     </div>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
 </html>
