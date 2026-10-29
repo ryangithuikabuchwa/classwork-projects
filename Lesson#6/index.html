@@ -3,77 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML form</title>
+    <title>Coding proggramerrs</title>
+    <link rel="stylesheet"  href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        body{position: relative;}
+        .proggraming-slide{ height: 200px; text-align: center; padding-top: 75px; font-size: 1.8rem;
+        color: white;}
+        .slide-scratch{background-color: rgb(255, 158, 122);}
+        .slide-Turbowrap{background-color: rgb(255, 87, 87);}
+        .slide-Penguinmod{background-color: aquamarine;}
+        .slide-Snail{background-color: plum;}
+    </style>
 </head>
 <body>
+    <body data-spy="scroll" data-target="#proggramingNav" data-offset="60">
+
+        <div id class="ProggramingCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#proggramingCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#proggramingCarousel" data-slide-to="1"></li>
+                <li data-target="#proggramingCarousel" data-slide-to="2"></li>
+                <li data-target="#proggramingCarousel" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active proggraming-slide slide-scratch">Scratch</div>
+                <div class="carousel-item proggraming-slide slide-Turbowrap">Turbowrap</div>
+                <div class="carousel-item proggraming-slide slide-Penguinmod">Penguinmod</div>
+                <div class="carousel-item proggraming-slide slide-Snail">Snail.IDE</div>
+            </div>
+
+            <a href="proggraming" class="carousel-control-prev" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+
+             <a href="proggraming" class="carousel-control-next" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </id>
+    </data>
     
-    <h1>Melon sandbox multiplayer game</h1>
-
-    <p>It means: Is a sandbox Game But melon that is multiplayer</p>
-
-    <Form>
-        <fieldset>
-            <Legend>Melon Sandbox Detals</Legend>
-            <Label>Enter your name</Label><br>
-            <input type="text" placeholder="Only text"><br><br>
-
-            <Label>Enter your Age</Label><br>
-            <input type="Number" min="3"  max="17"><br><br>
-
-            <Label>Choose your date</Label><br>
-            <input type="Date" ><br><br>
-        
-        </fieldset>
-        <br>
-        <fieldset>
-            <legend>Choose your andventure</legend>
-            <label>Which one would you be?</label><br>
-            <select>
-              <option>Melon</option>
-              <option>Pumpkin</option>
-              <option>Corn</option>
-              <option>Apple</option>
-              <option>Cactus</option>
-              <option>Tomato</option>
-              <option>Dragon Fruit</option>
-              <option>Robot</option>
-              <option>Coral</option>
-            </select><br><br>
 
 
-            <label>Choose your Color of you input name</label><br>
-            <input type="color"><br><br>
 
 
-            <label>Choose the items from the melon sandbox:</label><br>
-            <input type="checkbox">Crate<br>
-            <input type="checkbox">Staff<br>
-            <input type="checkbox">Water gun<br>
-            <input type="checkbox">Tomato can<br>
-            <input type="checkbox">Nano assembler<br>
-            <input type="checkbox">Any<br>
-        </fieldset>
-
-          <br>
-          <fieldset>
-            <legend>Multiplayer mission</legend>
-
-
-            <label>Choose a misson</label><br>
-            <input type="radio" name="misson">Go build a house<br><br>
-            <input type="radio" name="misson">Get mels<br><br>
-            <input type="radio" name="misson">Spwan living but diffrent<br><br>
-            <input type="radio" name="misson">Explode with nuclear bomb<br><br>
-
-
-            <label>Make your own plan</label>
-            <textarea rows="10" collums="35"placeholder="During my andventure, I will..."></textarea>
-          </fieldset>
-
-          <br>
-
-
-          <input type="submit" value="Begin with my andvendture."
-    </Form>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
 </html>
