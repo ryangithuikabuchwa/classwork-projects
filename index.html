@@ -3,21 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>setUP</title>
+    <title>Document</title>
 </head>
 <body>
-
-    <h1 id="myH"></h1>
-    <p id="myP"></p>
-
+    <h2>JS string methods</h2>
+    <p>basic methods</p>
     <script>
-        // My heading:
-        document.getElementById("myH").innerHTML = "JavaScript comments";
+        var str = "AbCdEf"
+        document.write(str.toUpperCase());
+        document.write("<br>");
+        document.write(str.toLowerCase());
+        document.write("<br>");
+        document.write(str.startsWith('R'));
+        document.write("<br>")
 
-        // My paragraph:
-        document.getElementById("myP").innerHTML = "My first paragraph";
+        var str1 = "I learnt about methods";
+        var patt = new RegExp("about")
+        var res = patt.test(str1);
+        document.write(res)
     </script>
-    
-
 </body>
 </html>

@@ -3,25 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Demo</title>
 </head>
 <body>
-    <p>a function can acccses variables defined inside a function:</p> 
-    <button type="button" onclick="myFunction()">Click Me!</button>
-     <p id ="demo"></id>
-     <p id ="demo1"></id>
-     <p id ="demo2"></id>
-            <script>
-                var b = "10" 
-
-                function myFunction() {
-
-                    var a = "6" 
-                    document.getElementById("demo").innerHTML = b * a;
-                }
-
-                document.getElementById("demo1").innerHTML = b;
-                    document.getElementById("demo2").innerHTML = a;
-            </script>
+    <h2>JS for loops</h2>
+    <p id="demo"></p>
+    <script>
+        var fruits = ["apple", "banana", "grapes", "strawberries", "mangoes", "jackfruits", "Pinaple", "strawberry"];
+        var text = "";
+        var i;
+        for(i = 0; i < fruits.length; i++){
+            text += fruits[i] + "<br>";
+        }
+        document.getElementById("demo").innerHTML = text;
+    </script>
+    
 </body>
 </html>
