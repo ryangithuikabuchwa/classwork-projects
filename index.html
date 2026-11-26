@@ -3,24 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title> Favo Youtubers</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 </head>
-<body>
-    <h2>JS string methods</h2>
-    <p>basic methods</p>
-    <script>
-        var str = "AbCdEf"
-        document.write(str.toUpperCase());
-        document.write("<br>");
-        document.write(str.toLowerCase());
-        document.write("<br>");
-        document.write(str.startsWith('R'));
-        document.write("<br>")
+<body class="py-4">
+    
+    <div class="container">
 
-        var str1 = "I learnt about methods";
-        var patt = new RegExp("about")
-        var res = patt.test(str1);
-        document.write(res)
+        <h1 class="mb-4"> my favorite youtuber</h1>
+        <p class="text-muted mb-4">
+            Introduction to object in Javascript Grade 4-6 
+        </p>
+        <div class="card shadow-sm mb-3" style="max-width: 400px ;">
+            <div class="card-body">
+                <h5 class="card-title" style="color: #FF5A43;"> My Favorite youtuber</h5>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <span class="card-label d-block">Name</span>
+                        <strong id="name">-</strong>
+                    </li>
+                    <li class="list-group-item">
+                        <span class="card-label d-block">Subscribers</span>
+                        <strong id="subscribers">-</strong>
+                    </li>
+                    <li class="list-group-item">
+                        <span class="card-label d-block">Age</span>
+                        <strong id="age">-</strong>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var mySubs = {
+            name: "Mr.Beast",
+            subscribers: "500M",
+            age: "28",
+        };
+
+        var nameEL = document.getElementById("name")
+        var subscribersEL = document.getElementById("subscribers")
+        nameEL.textContent = mySubs.name;
+        subscribersEL.textContent = mySubs.subscribers;
+
+         var ageEL = document.getElementById("age")
+         ageEL.textContent = mySubs["age"];
     </script>
 </body>
 </html>
